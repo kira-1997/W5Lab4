@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(57, 245, 220);
+}
+
+.container{
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: .5rem;
+    column-gap: 1rem;
+    background-color: rgb(128, 0, 255);
+}
+.btn{
+    width: 5rem;
+    height: 5rem;
+}
+
+.containerCal{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items:center;
+
+}
+.cal{
+    width: 20rem;
+    height: 22rem;
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(10, 10, 86,0.2);
+    border: none;
+    border-radius: .5rem;
+}
+
+.input{
+    background-color: rgb(10, 10, 86,0.2);
+    width: 20rem;
+    height: 4rem;
+    border: none;
+    border-radius: .5rem;
+
+}
+
+.nums{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    width: 4rem;
+    height: 3rem;
+    background-color: rgba(240, 123, 234, 0.8);
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 0px 0px black;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem
+}
+.foot button{
+    width:auto;
+}
